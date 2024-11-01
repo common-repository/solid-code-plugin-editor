@@ -1,0 +1,18 @@
+#newcontent{
+    font-family: Consolas,Monaco,monospace;
+    font-size: 12px;
+    width: 100%;
+    background: #F9F9F9;
+    outline: none;
+}
+.scpe_content_left{width:70%;float:left;}
+.scpe_content_right{width:30%;float:left;}
+.scpe_inside_right{margin-top:-10px;padding:0px 0px 0px 20px;}
+
+.scpe_inside_right ul li{font-weight:bold;font-size:14px;}
+.scpe_inside_right ul li a{font-size:12px;}
+.scpe_inside_right ul li a.scpe_nav{text-decoration:none;font-size:14px;}
+.scpe_inside_right ul ul{margin-left:20px;display:none;}
+.scpe_inside_right ul ul.scpe_show{display:block;}
+
+.scpe_inside_right ul li a.scpe_selected_file{color:red;}
